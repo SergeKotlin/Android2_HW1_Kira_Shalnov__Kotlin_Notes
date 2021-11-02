@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/btnCopyNote"
+    android:id="@+id/copy_note__context_main"
+    android:orderInCategory="10"/>
+<item
+    android:title="@string/share_note"
+    android:id="@+id/share_note__context_main"
+    android:orderInCategory="20"/>
+<item
+    android:title="@string/label_for_note"
+    android:id="@+id/new_label__context_main"
+    android:orderInCategory="30"/>
+<item
+    android:title="@string/pin_to_top"
+    android:id="@+id/pin_to_top__context_main"
+    android:orderInCategory="40"/>
+
+<item
+    android:title="@string/search_in_note"
+    android:id="@+id/search__context_main"
+    android:orderInCategory="50"/>
+<item
+    android:title="@string/info_details_note"
+    android:id="@+id/info__context_main"
+    android:orderInCategory="60"/>
+
+<item
+    android:title="@string/rename_note"
+    android:id="@+id/rename__context_main"
+    android:orderInCategory="70"/>
+<item
+    android:title="@string/delete_note"
+    android:id="@+id/delete__context_main"
+    android:orderInCategory="80"/>
+</menu>
+<!-- TODO Запрогать с тостами это меню -->

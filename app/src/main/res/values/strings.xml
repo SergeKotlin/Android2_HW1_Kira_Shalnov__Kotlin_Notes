@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="back_as_remove_fragment">Back as remove fragment</string>
+    <string name="use_backstack_settings">Use BackStack:</string>
+    <string name="use_backstack">Use BackStack; replace fragment</string>
+    <string name="use_black_theme">Use Black Theme</string>
+    <string name="favorite_screen">Favorite screen</string>
+    <string name="settings">Settings</string>
+    <string name="btnCompassMain">Main</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="fragment_navigation">Fragment Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_is_first_note_name">Name Notes</string>
+    <string name="default_is_first_note_text">Text Notes</string>
+    <string name="btnAddNewNote">New note</string>
+    <string name="btnSortNotes">Sort</string>
+    <string name="btnCopyNote">Copy</string>
+    <string name="btnLabelAndPinToTopNote"><![CDATA[Label & Pin to Top]]></string>
+    <string name="btnInfoNote">Info</string>
+    <string name="btnMoreDetailsNote">More Actions</string>
+    <string name="btnListViewChoiceMainMenu">View choice (Notes List)</string>
+    <string name="btnMoreMainMenu">More</string>
+    <string name="note_menu_section">Note Menu Section</string>
+    <string name="sort_by_name_main">Sort by Name</string>
+    <string name="sort_by_date_main">Sort by Date</string>
+    <string name="sort_ascending_main">Ascending sort</string>
+    <string name="sort_descending_main">Descending sort</string>
+    <string name="search_in_note">Search (in Note)</string>
+    <string name="share_note">Share</string>
+    <string name="export_to_file_note">Save as..</string>
+    <string name="delete_note">Delete</string>
+    <string name="info_details_note">Note Info</string>
+    <string name="label_for_note">New Label</string>
+    <string name="pin_to_top">Pin Note to Top</string>
+    <string name="rename_note">Rename Note</string>
+</resources>
+
+<!-- Выпиливаю
+    <string name="main_screen">Main screen</string>
+-->
