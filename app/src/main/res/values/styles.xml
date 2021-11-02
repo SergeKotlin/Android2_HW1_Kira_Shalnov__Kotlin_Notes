@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="noteMenu">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+    <style name="notesMenu" parent="noteMenu">
+        <item name="android:background">@color/design_default_color_on_primary</item>
+    </style>
+
+</resources>
+
+<!-- стиль в верхней части приложения на строке AppBar будет подчиняться стилю без ActionBar, а это значит,
+что цвет текста будет чёрным по тёмному, поскольку в стандартной светлой теме текст чёрный.
+Эту проблему корректируем стилем AppTheme.AppBarOverlay. Это наследник от стандартной темы ThemeOverlay.AppCompat.Dark.ActionBar.
+ThemeOverlay означает, что тема придумана для специфических элементов. К контейнеру элементов AppBarLayout,
+который будет выполнять роль ActionBar, как раз и должен применяться стиль AppTheme.AppBarOverlay. -->
+
+<!-- Стиль AppTheme.PopupOverlay нужен для всплывающего главного меню. Поскольку мы вставляем ToolBar
+в контейнер AppBarLayout с тёмной темой, то этот стиль применяется и для ToolBar. Если мы хотим,
+чтобы меню было в светлых тонах, то должны применить стиль AppTheme.PopupOverlay. -->

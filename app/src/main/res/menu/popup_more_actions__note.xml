@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    Label & Pin to Top -->
+    <item android:title="@string/label_for_note"
+        android:id="@+id/label_for_note__popup_note"
+        android:orderInCategory="10" />
+    <item android:title="@string/pin_to_top"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:id="@+id/pin_to_top__popup_note"
+        android:orderInCategory="20" />
+    <item android:title="@string/search_in_note"
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/search_in_note__popup_note"
+        android:orderInCategory="30" />
+    <item android:title="@string/info_details_note"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:id="@+id/info_details__popup_note"
+        android:orderInCategory="40" />
+    <item android:title="@string/rename_note"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:id="@+id/rename__popup_note"
+        android:orderInCategory="50" />
+    <item android:title="@string/delete_note"
+        android:icon="@android:drawable/ic_delete"
+        android:id="@+id/delete__popup_note"
+        android:orderInCategory="60" />
+
+
+
+</menu>

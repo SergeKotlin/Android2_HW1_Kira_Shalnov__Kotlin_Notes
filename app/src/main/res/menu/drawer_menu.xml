@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_main"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="10"
+        android:title="@string/btnCompassMain"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="@string/settings" />
+</menu>
