@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notes_view_choice__main_menu"
+        android:orderInCategory="30"
+        android:title="@string/btnListViewChoiceMainMenu"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="@string/btnSortNotes"
+        android:id="@+id/sort__main_menu"
+        android:orderInCategory="35">
+        <menu>
+            <item
+                android:title="@string/sort_by_name_main"
+                android:id="@+id/sort_by_name__main_menu"
+                android:orderInCategory="10">
+                <menu>
+                    <item android:id="@+id/sort_by_name_ascending__main_menu"
+                        android:orderInCategory="10"
+                        android:title="@string/sort_ascending_main"
+                        android:icon="@android:drawable/ic_menu_sort_alphabetically" />
+                    <item android:id="@+id/sort_by_name_descending__main_menu"
+                        android:orderInCategory="20"
+                        android:title="@string/sort_descending_main"
+                        android:icon="@android:drawable/ic_menu_upload" />
+                </menu>
+            </item>
+            <item android:title="@string/sort_by_date_main"
+                android:id="@+id/sort_by_date__main_menu"
+                android:orderInCategory="20">
+                <menu>
+                    <item android:id="@+id/sort_by_date_ascending__main_menu"
+                        android:orderInCategory="10"
+                        android:title="@string/sort_ascending_main"
+                        android:icon="@android:drawable/ic_menu_sort_alphabetically" />
+                    <item android:id="@+id/sort_by_date_descending__main_menu"
+                        android:orderInCategory="20"
+                        android:title="@string/sort_descending_main"
+                        android:icon="@android:drawable/ic_menu_upload" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+</menu>
+

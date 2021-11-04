@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Это макет фрагмента для показываемой заметки -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteFragment">
+
+    <!--  Заголовок страницы заметки  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/noteMenu">
+        <ImageButton
+            android:id="@+id/buttonCopyNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/noteMenu"
+            android:contentDescription="@string/btnCopyNote"
+            android:src="@drawable/ic_menu_copy_material" />
+        <ImageButton
+            android:id="@+id/buttonShareNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/noteMenu"
+            android:contentDescription="@string/share_note"
+            android:src="@drawable/ic_menu_share_material" />
+        <ImageButton
+            android:id="@+id/buttonMoreActionsNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/noteMenu"
+            android:contentDescription="@string/btnMoreDetailsNote"
+            android:src="@drawable/ic_menu_moreoverflow_material" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nameNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/default_is_first_note_name" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/textNote"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/default_is_first_note_text"
+        android:gravity="top" />
+
+</LinearLayout>

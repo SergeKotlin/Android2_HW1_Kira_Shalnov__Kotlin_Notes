@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/note_section__note_menu"
+        android:orderInCategory="30"
+        android:title="@string/note_menu_section"
+        app:showAsAction="never">
+        <menu>
+        </menu>
+    </item>
+</menu>
